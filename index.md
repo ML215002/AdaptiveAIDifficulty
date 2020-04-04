@@ -6,6 +6,8 @@ Given the opportunity, players will optimise the fun out of a game. Whether its 
 
 I used a two "brain" approach inspired by the systems used in 'Alien: Isolation' and 'Metal Gear Solid V'. This approach uses two separate scripts communicating with each other in order to calculate the best instructions. I will refer to each side as the 'Manager' and 'Control' halves.
 
+You can download the PDF for my poster [here](Adapting AI Poster.pdf).
+
 ## Base Gameplay
 The AI agent I made is for a simple FPS game, and required some basic movement and combat functionality as well as interactions with the game world, I.e. picking up weapons / health packs, using cover, etc. The player will also have similar capabilities as well as access to the same weapons as the AI.
 
