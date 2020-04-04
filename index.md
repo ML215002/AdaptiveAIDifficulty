@@ -22,6 +22,7 @@ The 'Control' half is responsible for the agents actions and states. It will req
 ![Image](UMLDiagram.png)
 
 ## Research
+### Alien: Isolation vs. Doom
 The main focus of my research was 'Alien: Isolation' (2014). The two part AI system, inspiring my personal artefact, created a consistent pressure from the Xenomorph. Whereas most games pressure the player using many agents, each of which is a lot less difficult, 'Alien: Isolation' needed to keep the focus around a single threat. This created a very unique interaction with the player as the relationship between the player and their enemies a lot more personal.
 
 Having many easy agents allows the player to feel like a God. One against all. This is taken to the extreme in games such as 'Doom' (2016), where all the mechanics work with each other to force the player to play a lot quicker and more aggressively. Through the inclusion of the 'Imp' and several variants of 'The Possessed' demons, there are almost always several enemies that act as fodder, a quick and easy kill; rewarding a brief moment of recovery, and a small amount of extra health / ammo. 
@@ -30,5 +31,10 @@ This style of gameplay is at the other end of the spectrum to 'Alien: Isolation'
 
 Taking this into my own project, I shifted the focus more towards how this system can be used to alter the behaviour of the agents in order to affect difficulty and force the player into switching up their preferred playstyle, putting them out of their comfort zone. My proposed version also automatically takes into account the player's skill. If the player is struggling in performing at their preferred stle, the system will make it slightly easier by making the agent move more / less, or closer to / further from the player. 
 
+# Metal Gear Solid V
+'Metal Gear Solid V' takes a similar approach to my own, without the two part system. While attacking different enemy bases in MGSV, the methods the player used most in the previous base will be countered by the AI agents of the current. If the player attacked the last base at night, the next AI will start to wear night vision helmets. If the player went in very aggressively, the AI will wear more armor etc. This allows the same focus on switching playstles as my own system, however the difficulty of the agents is still predefined by the player's selected difficulty option, and these adaptions fit more in line with the general progression of the game as opposed to adapting mid fight to get the most accurate difficulty for the player.
+
 ## Bibliography
-THOMPSON, Tommy. 31/10/17. ‘The Perfect Organism: The AI of Alien: Isolation’. Available at: https://www.gamasutra.com/blogs/TommyThompson/20171031/308027/The_Perfect_Organism_The_AI_of_Alien_Isolation.php. [Accessed Mar 20].
+GRAFT, Kris. 6/4/17. ''Make me think, make me move': New Doom's deceptively simple design'. Available at: https://www.gamasutra.com/view/news/295254/Make_me_think_make_me_move_New_Dooms_deceptively_simple_design.php. [Last Accessed Mar 20].
+KHAN, Haider. 8/10/15. 'MGSV: Phantom Pain Enemies Response System, Defense, Vehicles Guide'. Available at: https://segmentnext.com/2015/09/05/mgsv-phantom-pain-enemies-response-system-defense-vehicles-guide/ [Last Accessed Mar 20].
+THOMPSON, Tommy. 31/10/17. 'The Perfect Organism: The AI of Alien: Isolation'. Available at: https://www.gamasutra.com/blogs/TommyThompson/20171031/308027/The_Perfect_Organism_The_AI_of_Alien_Isolation.php. [Last Accessed Mar 20].
