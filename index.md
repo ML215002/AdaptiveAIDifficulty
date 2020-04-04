@@ -1,8 +1,23 @@
-## Welcome to GitHub Pages
+### Adaptive AI Difficulty
+# Matt Law - COMP 250
 
-You can use the [editor on GitHub](https://github.com/ML215002/AdaptiveAIDifficulty/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
+Given the opportunity, players will optimise the fun out of a game. Whether its using only the highest rated strategies or abusing the mechanics to make the game a lot easier. To prevent the former, I will be developing an AI agent for a simple FPS that will adapt to how the player is playing in order to force them to switch up their playstyle. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I will be using a two "brain" approach inspired by the systems used in 'Alien: Isolation' and 'Metal Gear Solid V'. This approach will use two separate scripts communicating with each other in order to calculate the best instructions. I will refer to each side as the 'Manager' and 'Control' halves.
+
+## Base Gameplay
+The AI agent I am making will be for a simple FPS game, and will require some basic movement and combat functionality as well as interactions with the game world, I.e. picking up weapons / health packs, using cover, etc. The player will also have similar capabilities as well as access to the same weapons as the AI.
+
+Each weapon will be balanced around a rock, paper, scissors style model; with each having strengths and weaknesses against the others.
+
+## The Manager
+The 'Manager' half will keep track of all the players stats as well as their current position. It will also determine whether any incoming information requests are accessible for the 'Control' script. For example, if the player is hidden behind a wall, the control will not have access to their location. However if the player gets too far away, the manager can give vague information to push the control towards the player, stopping them from just running away.
+
+## The Control
+The 'Control' half is responsible for the agents actions and states. It will request information from the 'Manager' script and process the data recieved in order to determine what state it should be in and what instruction it should carry out next. This half will have very little information to go off, only the current statistics of the agent itself and certain base values for the different functions, I.e. health and movement speed etc.
+
+
 
 ### Markdown
 
