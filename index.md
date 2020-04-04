@@ -17,7 +17,7 @@ The 'Manager' half will keep track of all the players stats as well as their cur
 ## The Control
 The 'Control' half is responsible for the agents actions and states. It will request information from the 'Manager' script and process the data recieved in order to determine what state it should be in and what instruction it should carry out next. This half will have very little information to go off, only the current statistics of the agent itself and certain base values for the different functions, I.e. health and movement speed etc.
 
-![Image]UMLDiagram.png
+![Image](UMLDiagram.png)
 
 ### Markdown
 
